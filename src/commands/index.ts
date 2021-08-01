@@ -236,15 +236,19 @@ export const day: Command = {
       )
     }
 
+    const { inputChannel } = config
+
+    if (inputChannel && message.channel.id != inputChannel) {
+      return message.reply(
+        `para registrar o seu aniversário envie a mensagem no canal <#${inputChannel}> :heart:`
+      )
+    }
+
     const [value] = params.args
     const date = String(value)
 
     const dateCheck = RegExp(/^([0-2][0-9]|(3)[0-1])(\/)(((0)[0-9])|((1)[0-2]))$/)
-    if (config.inputChannel && message.channel.id != config.inputChannel) {
-      return message.reply(
-        `para registrar o seu aniversário envie a mensagem no canal <#${config.inputChannel}> :heart:`
-      )
-    }
+
     if (dateCheck.test(date)) {
       const newBirthday = {
         id: message.author.id,
@@ -293,6 +297,14 @@ export const list: Command = {
   description: 'All birthdays',
   cooldown: 120,
   async execute(message, params) {
+    const { guildId, inputChannel } = config
+
+    if (inputChannel && message.channel.id != inputChannel) {
+      return message.reply(
+        `para ver a lista de aniversariantes envie a mensagem no canal <#${inputChannel}> :heart:`
+      )
+    }
+
     const cd = this.cooldown ?? 10
 
     if (cooldown.has(message.author.id)) {
@@ -315,8 +327,6 @@ export const list: Command = {
           'ainda não foram cadastrados aniversários, aproveite e seja o primeiro :heart:'
         )
       }
-
-      const { guildId } = config
 
       const guild = await client.guilds.fetch(guildId)
 
