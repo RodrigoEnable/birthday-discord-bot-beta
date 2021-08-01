@@ -1,4 +1,4 @@
-![Logo](https://github.com/RodrigoEnable/birthday-discord-bot/blob/main/birthday-enable.svg)
+![Logo](https://github.com/RodrigoEnable/birthday-discord-bot/blob/main/birthday-enable-logo.svg)
 
 ## Birthday Discord Bot Beta 1.0
 
@@ -40,4 +40,3 @@
 
 ► Bot em fase de teste no meu [Discord](https://discord.gg/VzZx9JX)  
 ► Bot in testing phase on my [Discord](https://discord.gg/VzZx9JX)
-
