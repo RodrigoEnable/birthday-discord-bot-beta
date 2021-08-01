@@ -1,0 +1,11 @@
+# dependencies
+/node_modules
+
+# production
+/dist
+
+# testing
+/coverage
+
+# local env files
+.env
