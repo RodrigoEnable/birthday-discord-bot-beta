@@ -1,4 +1,4 @@
-![Logo](https://github.com/RodrigoEnable/birthday-discord-bot/blob/main/birthday-enable-logo.svg)
+![Logo](https://github.com/RodrigoEnable/birthday-discord-bot-beta/blob/main/birthday-enable-logo.svg)
 
 ## Birthday Discord Bot Beta 1.0
 
