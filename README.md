@@ -16,7 +16,7 @@
 
 ## Predominant programming language
 
-► Javascript/Typescript
+► Javascript (Typescript)
 
 ## Technologies
 
@@ -38,5 +38,7 @@
 
 ## Beta version
 
-► Bot em fase de teste no meu [Discord](https://discord.gg/VzZx9JX)  
-► Bot in testing phase on my [Discord](https://discord.gg/VzZx9JX)
+► Bot em fase de teste no meu [discord](https://discord.gg/VzZx9JX)  
+► Bot in testing phase on my [discord](https://discord.gg/VzZx9JX)
+
+![BuyCoffeeLogo](https://github.com/RodrigoEnable/birthday-discord-bot-beta/blob/main/buy-me-a-coffee.svg)
