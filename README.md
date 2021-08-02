@@ -43,4 +43,4 @@
 
 ## Support
 
-![BuyCoffeeLogo](https://github.com/RodrigoEnable/birthday-discord-bot-beta/blob/main/buy-me-a-coffee.png)
+![BuyCoffeeLogo](https://github.com/RodrigoEnable/birthday-discord-bot-beta/blob/main/buy-me-a-coffee-small.png)
