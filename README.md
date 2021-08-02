@@ -29,7 +29,7 @@
 
 ## Main libraries used
 
-► [discord.js](https://github.com/discordjs/discord.js)/[cron](https://github.com/kelektiv/node-cron)
+► [discord.js](https://github.com/discordjs/discord.js), [cron](https://github.com/kelektiv/node-cron)
 
 ## Deploy
 
