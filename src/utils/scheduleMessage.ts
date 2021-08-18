@@ -6,7 +6,7 @@ export const scheduledMessage = (
   outputChannel: string,
   message: MessageEmbed
 ) => {
-  new cron.CronJob('00 00 18 * * *', () => {
+  new cron.CronJob('00 50 19 * * *', () => {
     const bot = guild.me?.id
 
     if (!bot) {
