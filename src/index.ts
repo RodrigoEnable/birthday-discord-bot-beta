@@ -135,7 +135,7 @@ async function schelude() {
 }
 
 setTimeout(() => schelude(), 10000)
-setInterval(() => schelude(), 21600000)
+setInterval(() => schelude(), 86400000)
 
 client.on('message', (message: Message) => {
   if (!config) {
