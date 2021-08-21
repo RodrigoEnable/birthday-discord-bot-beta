@@ -135,6 +135,7 @@ async function schelude() {
 }
 
 setTimeout(() => schelude(), 10000)
+// the function needs to be performed daily
 setInterval(() => schelude(), 86400000)
 
 client.on('message', (message: Message) => {
