@@ -40,7 +40,3 @@
 
 ► Bot em fase de teste no meu [discord](https://discord.gg/VzZx9JX)  
 ► Bot in testing phase on my [discord](https://discord.gg/VzZx9JX)
-
-## Support
-
-[![BuyCoffeeLogo](https://github.com/RodrigoEnable/birthday-discord-bot-beta/blob/main/buy-me-a-coffee-small.png)](https://buymeacoffee.com/rodrigoenable)
